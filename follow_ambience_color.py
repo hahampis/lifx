@@ -4,7 +4,7 @@ import requests
 import subprocess
 import sys
 
-token = open('/home/osmc/github/lifx/token').read().strip()
+token = open('/home/osmc/token').read().strip()
 ambience_color = sys.argv[1][2:]
 
 data = {"color" : "#" + ambience_color}
